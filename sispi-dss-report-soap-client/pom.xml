@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+    <artifactId>sd-dss</artifactId>
+    <version>5.12.1</version>
+  </parent>
+  <artifactId>sispi-dss-report-soap-client</artifactId>
+    
+	<dependencies>
+		<dependency>
+			<groupId>eu.europa.ec.joinup.sd-dss</groupId>
+			<artifactId>dss-validation-dto</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>jakarta.ws.rs</groupId>
+		    <artifactId>jakarta.ws.rs-api</artifactId>
+		</dependency>
+	</dependencies>
+</project>

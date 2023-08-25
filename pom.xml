@@ -168,6 +168,8 @@
 
 		<module>dss-jacoco-coverage</module>
 		<module>dss-bom</module>
+		<module>sispi-dss-report-soap</module>
+		<module>sispi-dss-report-soap-client</module>
 	</modules>
 
 	<build>
