@@ -36,15 +36,15 @@ import eu.europa.esig.dss.ws.validation.common.RemoteDocumentValidationService;
 import eu.europa.esig.dss.ws.validation.dto.DataToValidateDTO;
 import eu.europa.esig.dss.ws.validation.dto.WSReportsDTO;
 //import eu.europa.esig.dss.ws.validation.soap.client.SoapDocumentValidationService;
-import it.sispi.dss.ws.validation.soap.client.SoapDocumentValidationService;
+import it.sispi.dss.ws.validation.soap.client.SoapSispiDocumentValidationService;
 
 /**
  * SOAP implementation of the validation service
  */
 @SuppressWarnings("serial")
-public class SoapDocumentValidationServiceImpl implements SoapDocumentValidationService {
+public class SoapSispiDocumentValidationServiceImpl implements SoapSispiDocumentValidationService {
   
-  private static final Logger LOG = LoggerFactory.getLogger(SoapDocumentValidationServiceImpl.class);
+  private static final Logger LOG = LoggerFactory.getLogger(SoapSispiDocumentValidationServiceImpl.class);
 
   /** The validation service to use */
   private RemoteDocumentValidationService validationService;
@@ -52,7 +52,7 @@ public class SoapDocumentValidationServiceImpl implements SoapDocumentValidation
   /**
    * Default construction instantiating object with null RemoteDocumentValidationService
    */
-  public SoapDocumentValidationServiceImpl() {
+  public SoapSispiDocumentValidationServiceImpl() {
     // empty
   }
 

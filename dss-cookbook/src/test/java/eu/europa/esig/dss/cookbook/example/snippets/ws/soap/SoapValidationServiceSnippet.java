@@ -25,7 +25,7 @@ import eu.europa.esig.dss.ws.converter.RemoteDocumentConverter;
 import eu.europa.esig.dss.ws.dto.RemoteDocument;
 import eu.europa.esig.dss.ws.validation.dto.DataToValidateDTO;
 import eu.europa.esig.dss.ws.validation.dto.WSReportsDTO;
-import eu.europa.esig.dss.ws.validation.soap.SoapDocumentValidationServiceImpl;
+import eu.europa.esig.dss.ws.validation.soap.SoapSispiDocumentValidationServiceImpl;
 import eu.europa.esig.dss.ws.validation.soap.client.SoapDocumentValidationService;
 
 import java.io.File;
@@ -40,7 +40,7 @@ public class SoapValidationServiceSnippet {
         // import eu.europa.esig.dss.ws.validation.soap.client.SoapDocumentValidationService;
 
         // Initialize the soap client
-        SoapDocumentValidationService validationService = new SoapDocumentValidationServiceImpl();
+        SoapDocumentValidationService validationService = new SoapSispiDocumentValidationServiceImpl();
 
         // end::demo[]
 
